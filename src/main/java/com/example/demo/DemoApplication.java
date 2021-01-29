@@ -29,6 +29,8 @@ public class DemoApplication {
 		return null;
 
 	}
+	
+	System.out.println("Nico nueva dupla");
 
 	private static void imprimirDatos(Temporada t, int numeroEpisodio) {
 		System.out.println("El episodio : " +t.obtenerEpisodio(numeroEpisodio).getTitulo()+ "Se vio en la temporada :"+ t.getNumero() );

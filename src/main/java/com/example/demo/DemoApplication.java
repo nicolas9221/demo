@@ -9,13 +9,14 @@ public class DemoApplication {
 	
 	  public static void main(String[] args) {
 	       Serie serie = new Serie("karate kid");
-	       int numeroTemporada = 1;
-	       int numeroEpisodio = 4;
+	       int numeroTemporada = 2;
+	       int numeroEpisodio = 1;
 	       String tituloEpisodio = "primer acto";
 	       String tituloBuscado = "segundo acto";
 	       serie.agregarTemporada(numeroTemporada);
 	       boolean visto = true;
-	       String respuesta = serie.obtenerEpisodio(1,numeroEpisodio,tituloEpisodio,visto,tituloBuscado);
+	       
+	       String respuesta = serie.obtenerEpisodio(numeroEpisodio,numeroTemporada);
 	       System.out.println(respuesta);
 	    }
 	}

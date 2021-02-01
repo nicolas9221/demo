@@ -2,7 +2,10 @@ package com.example.demo;
 import java.util.ArrayList;
 import java.util.List;
 public class Temporada {
+	
+	
 	// Atributos
+	
 	int numero;
 	private List<Episodio> episodios;
 
@@ -11,7 +14,10 @@ public class Temporada {
 			this.numero = numero2;
 			this.episodios = new ArrayList<>();
 	}
+	
+	
 	// Metodos
+	
 	public void agregarEpisodio(int numero, String titulo, boolean visto) {
 		Episodio episodio = new Episodio(numero, titulo, visto);
 		this.episodios.add(episodio);

@@ -17,11 +17,8 @@ public class Episodio {
 		this.numero = numero;
 		this.titulo = titulo;
 		this.visto = visto;
-		// con Episodio se instancia la clase es el constuctor de la clase !!!!!!!!!
+		
 	}
 	
-	public void obtenerEpisodio(int temporada, int episodio) {
 	
-	
-	}	
 }
